@@ -10,3 +10,17 @@ D:\UEH\ST001_K46\HK5\ANNINHTHONGTIN\DOANCUOIKY\classical_cryptographic\classical
 D:\UEH\ST001_K46\HK5\ANNINHTHONGTIN\DOANCUOIKY\classical_cryptographic\classical_cryptographic\classical_cryptographic\obj\Debug\classical_cryptographic.csproj.CoreCompileInputs.cache
 D:\UEH\ST001_K46\HK5\ANNINHTHONGTIN\DOANCUOIKY\classical_cryptographic\classical_cryptographic\classical_cryptographic\obj\Debug\classical_cryptographic.exe
 D:\UEH\ST001_K46\HK5\ANNINHTHONGTIN\DOANCUOIKY\classical_cryptographic\classical_cryptographic\classical_cryptographic\obj\Debug\classical_cryptographic.pdb
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\bin\Debug\classical_cryptographic.exe.config
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\bin\Debug\classical_cryptographic.exe
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\bin\Debug\classical_cryptographic.pdb
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\obj\Debug\classical_cryptographic.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\obj\Debug\classical_cryptographic.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\obj\Debug\classical_cryptographic.PlayFairCipher.resources
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\obj\Debug\classical_cryptographic.Properties.Resources.resources
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\obj\Debug\classical_cryptographic.SelectCiphers.resources
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\obj\Debug\classical_cryptographic.SelectOptions.resources
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\obj\Debug\classical_cryptographic.VigenereCipher.resources
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\obj\Debug\classical_cryptographic.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\obj\Debug\classical_cryptographic.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\obj\Debug\classical_cryptographic.exe
+C:\Users\Admin\Desktop\ANTT\doan-anninhthongtin\classical_cryptographic\obj\Debug\classical_cryptographic.pdb

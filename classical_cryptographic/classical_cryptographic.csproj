@@ -8,10 +8,11 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>classical_cryptographic</RootNamespace>
     <AssemblyName>classical_cryptographic</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -96,6 +97,9 @@
     <Compile Include="VigenereCipher.Designer.cs">
       <DependentUpon>VigenereCipher.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PlayFairCipher.resx">
+      <DependentUpon>PlayFairCipher.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -104,6 +108,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="SelectCiphers.resx">
       <DependentUpon>SelectCiphers.cs</DependentUpon>

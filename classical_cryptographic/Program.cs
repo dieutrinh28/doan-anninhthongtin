@@ -16,7 +16,7 @@ namespace classical_cryptographic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PlayFairCipher());
+            Application.Run(new RailFenceCipher());
         }
     }
 }

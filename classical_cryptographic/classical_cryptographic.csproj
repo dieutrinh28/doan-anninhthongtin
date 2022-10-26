@@ -110,6 +110,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RailFenceCipher.resx">
+      <DependentUpon>RailFenceCipher.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SelectCiphers.resx">
       <DependentUpon>SelectCiphers.cs</DependentUpon>
     </EmbeddedResource>

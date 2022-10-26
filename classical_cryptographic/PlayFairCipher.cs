@@ -12,6 +12,7 @@ namespace classical_cryptographic
 {
     public partial class PlayFairCipher : Form
     {
+       
         public PlayFairCipher()
         {
             InitializeComponent();
@@ -182,14 +183,39 @@ namespace classical_cryptographic
                     result += matrix[row2, col1];
                 }
             }
-            for(int i = 0; i < result.Length; i++)
+            List<string> splitresult = new List<string>();
+
+            int index = 0;
+            while (index < result.Length)
             {
-                if(result[i] == 'x')
+                splitresult.Add(result.Substring(index, 2));
+                index += 2;
+            }
+            for (int i = 0; i < splitresult.Count; i++)
+            {
+                if(i == splitresult.Count - 1)
                 {
-                    result = result.Remove(i, 1);
+                    if (splitresult[i].IndexOf('x') != -1)
+                    {
+                        
+                        splitresult[i] = splitresult[i].Remove(1);
+                        
+                    }
+                }
+                if (splitresult[i].IndexOf('x') != -1)
+                {
+                    if (splitresult[i][0] == splitresult[i + 1][0])
+                    {
+                        splitresult[i] = splitresult[i].Remove(1);
+                    }
                 }
             }
-            return result;
+            string result2 = "";
+            foreach(string s in splitresult)
+            {
+                result2 += s;
+            }
+            return result2;
         }
         private static char[,] GenerateMatrix(string key)
         {

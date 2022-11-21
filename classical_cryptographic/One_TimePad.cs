@@ -100,8 +100,7 @@ namespace classical_cryptographic
                 txtbox_key.Text = "";
                 return;
             }*/
-            int textLength = txtbox_input.TextLength;
-            txtbox_key.Text = RandomKey(textLength);
+
 
             /*foreach (char ch in txtbox_input.Text)
             {
@@ -123,7 +122,8 @@ namespace classical_cryptographic
                 }
 
             }*/
-
+            int textLength = txtbox_input.TextLength;
+            txtbox_key.Text = RandomKey(textLength);
             lbl_output.Text = Encipher(txtbox_input.Text.ToUpper(), txtbox_key.Text.ToUpper());
 
         }
@@ -157,6 +157,11 @@ namespace classical_cryptographic
                 }
 
             }*/
+
+            /* nếu muốn check decrytpt thì comment 2 dòng này */
+            int textLength = txtbox_input.TextLength;
+            txtbox_key.Text = RandomKey(textLength);
+
 
             lbl_output.Text = Decipher(txtbox_input.Text.ToUpper(), txtbox_key.Text.ToUpper());
         }

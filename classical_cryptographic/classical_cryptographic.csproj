@@ -97,6 +97,9 @@
     <Compile Include="VigenereCipher.Designer.cs">
       <DependentUpon>VigenereCipher.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="One_TimePad.resx">
+      <DependentUpon>One_TimePad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PlayFairCipher.resx">
       <DependentUpon>PlayFairCipher.cs</DependentUpon>
     </EmbeddedResource>

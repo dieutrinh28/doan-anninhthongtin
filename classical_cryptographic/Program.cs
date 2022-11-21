@@ -16,7 +16,7 @@ namespace classical_cryptographic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VigenereCipher());
+            Application.Run(new One_TimePad());
         }
     }
 }

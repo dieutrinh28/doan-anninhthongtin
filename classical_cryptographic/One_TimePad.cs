@@ -39,6 +39,13 @@ namespace classical_cryptographic
             }
             return key;
         }
+        static string key(int textLength)
+        {
+            string text = "DIEUTRINHBICHNGANVANHANHOAINAMQUANGMINH";
+            String key = "";
+            key = text.Substring(0, textLength);
+            return key;
+        }
 
         static string Encipher(string plainText, string key)
         {
@@ -102,7 +109,7 @@ namespace classical_cryptographic
             }*/
 
 
-            /*foreach (char ch in txtbox_input.Text)
+            foreach (char ch in txtbox_input.Text)
             {
                 if (!char.IsLetter(ch))
                 {
@@ -112,7 +119,7 @@ namespace classical_cryptographic
                 }
             }
 
-            foreach (char ch in txtbox_key.Text)
+            /*foreach (char ch in txtbox_key.Text)
             {
                 if (!char.IsLetter(ch))
                 {
@@ -123,7 +130,7 @@ namespace classical_cryptographic
 
             }*/
             int textLength = txtbox_input.TextLength;
-            txtbox_key.Text = RandomKey(textLength);
+            txtbox_key.Text = key(textLength);
             lbl_output.Text = Encipher(txtbox_input.Text.ToUpper(), txtbox_key.Text.ToUpper());
 
         }
@@ -135,7 +142,7 @@ namespace classical_cryptographic
                 MessageBox.Show("Key has to be the same length as plain text");
                 txtbox_key.Text = "";
                 return;
-            }
+            }*/
 
             foreach (char ch in txtbox_input.Text)
             {
@@ -147,7 +154,7 @@ namespace classical_cryptographic
                 }
             }
 
-            foreach (char ch in txtbox_key.Text)
+            /*foreach (char ch in txtbox_key.Text)
             {
                 if (!char.IsLetter(ch))
                 {
@@ -160,7 +167,7 @@ namespace classical_cryptographic
 
             /* nếu muốn check decrytpt thì comment 2 dòng này */
             int textLength = txtbox_input.TextLength;
-            txtbox_key.Text = RandomKey(textLength);
+            txtbox_key.Text = key(textLength);
 
 
             lbl_output.Text = Decipher(txtbox_input.Text.ToUpper(), txtbox_key.Text.ToUpper());
